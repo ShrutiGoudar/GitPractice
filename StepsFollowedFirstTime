@@ -1,0 +1,16 @@
+Created remote repo on github.com
+verify and fix git config global for use.name and email
+added vscode as default editor. difftool is not set yet
+run git init in the workspace
+clone remote repo              git clone https://github.com/ShrutiGoudar/GitPractice.git
+verify with git remote -v
+generated personal-git login id rsa key and added it in the ssh setting (at this point not clear if i am actually using it )
+ssh-keygen -t ed25519 -C "abcde@gmail.com" -f ~/.ssh/id_ed25519_github_personal
+verify it  :     eval "$(ssh-agent -s)"
+Goto developer setting of github.com and generate personal token . I will be using this directly for push as I have multiple logins and i dont want to mess up other login's stored credentials.
+> pushURLPTA="https://ShrutiGoudar:ghp_xxxxxxxxxxxxxx@github.com/ShrutiGoudar/GitPractice.git"
+> git push $pushURLPTA test_github
+Similarly git pull :
+ git pull $pushURLPTA test_github
+
+I see merge conflicts arising when I used commit amend followed by pull. Need to find right way to avoid getting into merge conflicts 
