@@ -1,2 +1,2 @@
 # GitPractice
-Revising and Leaarning Advanced Git
+Revising and Learning Advanced Git
