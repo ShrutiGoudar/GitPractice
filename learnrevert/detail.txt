@@ -1,5 +1,3 @@
 #commmit 1started with creating a text file in a main branch and pushed it to remote
 
 #commit 2 : feature branch created from top of main and puhing to remote
-
-#commit 4: edited from main branch 
